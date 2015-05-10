@@ -5,6 +5,8 @@ gem 'rails', '4.1.2'
 
 gem 'rails-api'
 
+gem 'active_model_serializers'
+
 gem 'spring', :group => :development
 
 
