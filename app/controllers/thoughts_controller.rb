@@ -54,6 +54,6 @@ class ThoughtsController < ApplicationController
     end
 
     def thought_params
-      params[:thought]
+      params.require(:thought).permit(:body)
     end
 end

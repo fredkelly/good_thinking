@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :thoughts
+  resources :thoughts, defaults: { format: 'json' }
 end
