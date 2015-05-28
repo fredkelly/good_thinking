@@ -7,6 +7,8 @@ gem 'rails-api'
 
 gem 'active_model_serializers'
 
+gem 'koala'
+
 gem 'spring', :group => :development
 
 
